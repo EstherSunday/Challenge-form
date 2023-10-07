@@ -384,15 +384,15 @@
 
     #fa{
         position: absolute;
-        top: 59%;
-        left:  29%;
+        top: 64%;
+        left:  61%;
         font-size: 18px;
         color: #8b8b8b;
         z-index: 1;
         cursor: pointer;
         padding: 5px;
         transform: translateY(-50%);
-        background-color: #8458eb;
+       
         
     }
 
@@ -402,6 +402,37 @@
     
    
   }
+
+/* HTML2 */
+
+  @media only screen and (max-width: 842px){
+
+    #fa{
+        position: absolute;
+        top: 68%;
+        left:  89%;
+        font-size: 18px;
+        color: #8b8b8b;
+        z-index: 1;
+        cursor: pointer;
+        padding: 5px;
+        transform: translateY(-50%);
+       
+        
+        .form2{
+            text-align: center;
+            margin-top: 26px;
+            background-color: rgb(112, 112, 223);
+            padding: 18px;
+            color: white;
+            height: 10px;
+            /* width: 22vw; */
+            border-radius: 9px;
+            background-color: fed;
+        }
+    }
+    
+    }
 
 
 
@@ -418,6 +449,8 @@
         padding: 5px;
         transform: translateY(-50%);
     }
+
+
   }
 
   @media only screen and (max-width: 622px){
