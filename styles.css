@@ -519,7 +519,7 @@
 
     .fa-eye{
         position: absolute;
-        top: 36%;
+        top: 79%;
         left:  86%;
     }
 
@@ -538,7 +538,7 @@
 
   @media only screen and (max-width: 320px){
     .fa-eye{
-        top: 00%;
+        top: 59%;
         left:  84%;
     }
 
@@ -554,7 +554,7 @@
 
   @media only screen and (max-width: 375px){
     .fa-eye{
-        top: 69%;
+        top: 83%;
     }
 
     .form1 input{
