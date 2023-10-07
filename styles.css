@@ -22,10 +22,11 @@
 }
 
 
-.Challenge2{
+.Challenge1{
     padding-top: 19px;
     padding-bottom: 30px;
-    padding-left: 50px;
+    padding-left: 70px;
+    
 }
 
 
@@ -52,13 +53,13 @@
 .form{
    margin-top: 11px;
    color: white;
-  
+    
 }
 
 .form1 input{
     position: relative;
     height: 5px;
-    width: 22vw;
+    width: 25vw;
     margin-top: 10px;
     border-radius: 6px;
     background-color: #282A2F;
@@ -72,8 +73,8 @@
 
 .fa-eye{
     position: absolute;
-    top: 70%;
-    left:  29%;
+    top: 75%;
+    left:  32%;
     font-size: 18px;
     color: #8b8b8b;
     z-index: 1;
@@ -158,7 +159,6 @@
     padding: 18px;
     color: white;
     height: 10px;
-    /* width: 22vw; */
     border-radius: 9px;
     
 }
@@ -199,7 +199,7 @@
     border-radius: 9px;
     border: none;
     height: 10px;
-    width: 25vw;
+    width: 29vw;
 }
 
 .form3, span, a{
@@ -207,14 +207,16 @@
     text-decoration: none;
 }
 
-.imag{
-    width: 49%;
+
+.imagg{
+    width: 60%;
     border-radius: 30px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 120px;
-    /* height: 100vh; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:  300px;
 }
+
+
 
 
 
@@ -227,20 +229,20 @@
 .sectt{
     background-color: #202227;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .Challenge{
     display: flex;
     justify-content: space-around;
-     /* padding: 8px; */
-   /* padding-bottom: 50px;  */
+    
 }
 
 
-.Challenge1{
-    padding-top: 10px;
+.Challenges{
+    padding-top: 9px;
     padding-bottom: 25px;
-    padding-left: 50px;
+    padding-left: 70px;
 }
 
 #fa{
@@ -257,9 +259,60 @@
 }
 
 
+.forming{
+    margin-top: 11px;
+    color: white;
+   
+ }
+ 
+ .forming1 input{
+     position: relative;
+     height: 4px;
+     width: 25vw;
+     margin-top: 10px;
+     border-radius: 6px;
+     background-color: #282A2F;
+     border: none;
+     padding: 5%;
+     color: white;  
+      
+ }
+
+ .forming2{
+    text-align: center;
+    margin-top: 26px;
+    background-color: rgb(112, 112, 223);
+    padding: 18px;
+    color: white;
+    height: 10px;
+    /* width: 22vw; */
+    border-radius: 9px;
+    
+}
+
+.forming2 span, a{
+  font-size: 16px;
+}
+
+.forming2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.checktext{
+    padding: 26px;
+ 
+}
+
+
+.checkmark{
+    top: 2px;
+}
+
+
 .welcome{
-    padding-bottom: 20px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 
@@ -274,17 +327,17 @@
     
 }
 
-
-
-
-.imagg{
-    width: 50%;
-    border-radius: 20px 20px 20px 20px;
-    /* height: 100vh; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 120px;
+.imag{
+    width: 49%;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding-left: 100px; */
 }
+
+
+
+
 
 
 @media only screen and (max-width: 910px){
@@ -538,7 +591,7 @@
 
   @media only screen and (max-width: 320px){
     .fa-eye{
-        top: 59%;
+        top: 57%;
         left:  84%;
     }
 
@@ -554,7 +607,7 @@
 
   @media only screen and (max-width: 375px){
     .fa-eye{
-        top: 83%;
+        top: 84%;
     }
 
     .form1 input{
@@ -573,7 +626,7 @@
 
 
 
-  /* html2 */
+  /* HTML2 */
 
   @media only screen and (max-width: 900px){
 
@@ -598,21 +651,14 @@
    
   }
 
-  /* HTML2 */
+ 
 
   @media only screen and (max-width: 842px){
 
     #fa{
-        position: absolute;
         top: 68%;
         left:  89%;
-        font-size: 18px;
-        color: #8b8b8b;
-        z-index: 1;
-        cursor: pointer;
-        padding: 5px;
-        transform: translateY(-50%);
-       
+    }
         
         .form2{
             text-align: center;
@@ -625,7 +671,40 @@
             border-radius: 9px;
             background-color: fed;
         }
-    }
+    
     
     }
 
+    @media only screen and (max-width: 768px){
+        .forming input{
+            height: 5px;
+         }
+    
+         .checkmark{
+            top: 30px;
+        }
+
+        
+    }
+
+    @media only screen and (max-width: 425px){
+        #fa{
+            top: 70%;
+            left:  82%;
+        }
+    }
+
+
+    @media only screen and (max-width: 375px){
+        #fa{
+            top: 69%;
+            left:  82%;
+        }
+    }
+
+    @media only screen and (max-width: 320px){
+        #fa{
+            top: 67%;
+            left:  82%;
+        }
+    }
