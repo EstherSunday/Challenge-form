@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
 
 .logo{
     color: white;
@@ -15,21 +15,18 @@
     border: none;
 }
 
-/* .sect{
-  display: flex;
-  background-color: #202227;
-  padding: 100px 10px;
-  border-radius: 15px;
-  height: 420px;
-    justify-content: center;
-    justify-content: space-around;
 
+.Challenge{
+    display: flex;
+    justify-content: space-around;
 }
 
-.bobby{
-   padding-right: 50px;
-  
-} */
+
+.Challenge2{
+    padding-top: 19px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
 
 
 .welcome{
@@ -40,18 +37,14 @@
 .welcome p{
     color: white;
     font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+
   
 }
 
 .welcome h3{
     color: white 
-    
-}
 
-.welcome i{
-    color: yellow;
-    padding: 8px;
-    
 }
 
 
@@ -75,27 +68,32 @@
      
 }
 
-.agree{
-    padding-top: 11px;
-}
+/* html */
 
-.eye-icon{
+.fa-eye{
     position: absolute;
-    top: 54%;
-    left: 37%;
+    top: 70%;
+    left:  29%;
     font-size: 18px;
     color: #8b8b8b;
+    z-index: 1;
     cursor: pointer;
     padding: 5px;
     transform: translateY(-50%);
+    
 }
 
 
+
+.agree{
+    padding-top: 11px;
+    
+}
 
 .checkbox-label {
     display: inline-block;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     cursor: pointer;
 
 }
@@ -121,10 +119,12 @@
 .checkmark:after {
     content: "";
     position: absolute;
+    
 }
 
 .checkbox-label input:checked + .checkmark:after {
     display: block;
+    
 }
 
 .checkbox-label .checkmark:after {
@@ -135,11 +135,13 @@
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+   
 }
 
 .checkbox-label-text {
     padding-left: 30px;
     padding-top: 100px;
+    
 }
 
 
@@ -198,6 +200,15 @@
     text-decoration: none;
 }
 
+.imag{
+    width: 49%;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 120px;
+    /* height: 100vh; */
+}
+
 
 
 
@@ -225,6 +236,20 @@
     padding-left: 50px;
 }
 
+#fa{
+    position: absolute;
+    top: 59%;
+    left:  29%;
+    font-size: 18px;
+    color: #8b8b8b;
+    z-index: 1;
+    cursor: pointer;
+    padding: 5px;
+    transform: translateY(-50%);
+    
+}
+
+
 .welcome{
     padding-bottom: 20px;
     padding-top: 30px;
@@ -242,12 +267,6 @@
     
 }
 
-.welcome i{
-    color: yellow;
-    padding: 8px;
-    
-}
-
 
 
 
@@ -260,8 +279,218 @@
     padding-left: 120px;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media only screen and (max-width: 848px) {
+    .imagg{
+        display: none;
+    }
+
+
+    .welcome{
+        padding-bottom: 20px;
+        padding-top: 30px;
+       
+    }
+    
+    
+    .welcome p{
+        color: white;
+        font-size: 78%;
+    }
+    
+    .welcome h3{
+        color: white 
+    }
+
+    .Challenge{
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Challenge1{
+        padding-top: 11px;
+        padding-bottom: 25px;
+        padding-right: 65px;
+        
+    }
+
+    .form{
+        margin-top: 11px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+       
+     }
+     
+     .form1 input{
+         position: relative;
+         /* height: 80px; */
+         width: 83vw;
+         margin-top: 10px;
+         border-radius: 6px;
+         background-color: #282A2F;
+         border: none;
+         padding: 3%;
+         color: white;
+        
+          
+     }
+
+     .fa-eye{
+        position: absolute;
+        top: 80%;
+        left:  87%;
+        font-size: 18px;
+        color: #8b8b8b;
+        z-index: 1;
+        cursor: pointer;
+        padding: 5px;
+        transform: translateY(-50%);
+    }
+
+     
+     .form3{
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-radius: 9px;
+        border: none;
+        /* height: 0px; */
+        width: 88vw;
+    }
+    
+    .form3, span, a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .checkbox-label-text{
+        padding-left: 30px;
+        padding-top: 0xp;
+        /* background-color: aqua; */
+        
+    }    
+    
+    
+  
+
+    
+    
+  }
+
+  /* html2 */
+
+  @media only screen and (max-width: 900px){
+
+    #fa{
+        position: absolute;
+        top: 59%;
+        left:  29%;
+        font-size: 18px;
+        color: #8b8b8b;
+        z-index: 1;
+        cursor: pointer;
+        padding: 5px;
+        transform: translateY(-50%);
+        background-color: #8458eb;
+        
+    }
+
+    .imag{
+        display: none;
+    }
+    
+   
+  }
+
+
+
+
+  @media only screen and (max-width: 742px){
+    .fa-eye{
+        position: absolute;
+        top: 78%;
+        left:  87%;
+        font-size: 18px;
+        color: #8b8b8b;
+        z-index: 1;
+        cursor: pointer;
+        padding: 5px;
+        transform: translateY(-50%);
     }
   }
+
+  @media only screen and (max-width: 622px){
+
+    
+    .fa-eye{
+        position: absolute;
+        top: 75%;
+        left:  86%;
+        font-size: 18px;
+        color: #8b8b8b;
+        z-index: 1;
+        cursor: pointer;
+        padding: 5px;
+        transform: translateY(-50%);
+    }
+  }
+
+  @media only screen and (max-width: 592px){
+
+    
+    .fa-eye{
+        position: absolute;
+        top: 84%;
+        left:  86%;
+        font-size: 18px;
+        color: #8b8b8b;
+        z-index: 1;
+        cursor: pointer;
+        padding: 5px;
+        transform: translateY(-50%);
+    }
+
+    .form1 input{
+        position: relative;
+        /* height: 80px; */
+        width: 83vw;
+        margin-top: 10px;
+        border-radius: 6px;
+        background-color: #282A2F;
+        border: none;
+        padding: 4%;
+        color: white;
+  }
+  }
+
+  
+  @media only screen and (max-width: 425px){
+
+    
+    .fa-eye{
+        position: absolute;
+        top: 36%;
+        left:  86%;
+        font-size: 18px;
+        color: #8b8b8b;
+        z-index: 1;
+        cursor: pointer;
+        padding: 5px;
+        transform: translateY(-50%);
+    }
+
+    .form1 input{
+        position: relative;
+        /* height: 80px; */
+        width: 83vw;
+        margin-top: 10px;
+        border-radius: 6px;
+        background-color: #282A2F;
+        border: none;
+        padding: 4%;
+        color: white;
+  }
+  }
+
+
