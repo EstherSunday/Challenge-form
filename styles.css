@@ -838,14 +838,11 @@
 
 
 
-    .sectt{
-        display: block;
-        background-color: red;
-    }
+
     #fa{
         position: absolute;
-        top: 67%;
-        left:  36%;
+        top: 68%;
+        left:  77%;
        
     }
 
@@ -858,18 +855,18 @@
         margin-top: 26px;
         background-color: rgb(112, 112, 223);
         padding: 18px;
+        width:53vw;
     }
 
     .forming1 input{
         position: relative;
-        height: 4px;
-        width: 50vw;
+        width:53vw;
         margin-top: 10px;
         border-radius: 6px;
         background-color: #282A2F;
         border: none;
         padding: 7%;
-        color: white;  
+        
          
     }
    
@@ -882,7 +879,7 @@
        border-radius: 9px;
        border: none;
        height: 10px;
-       width: 30vw;
+       width: 64vw;
    }
    
    
