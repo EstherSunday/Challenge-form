@@ -970,3 +970,56 @@
        width: 98%;
    }
   }
+
+  @media only screen and (max-width: 454px){
+    #fa{
+        position: absolute;
+        top: 59%;
+        left:  76%;
+       
+    }
+
+
+    .forming2{
+        text-align: center;
+        margin-top: 26px;
+        background-color: rgb(112, 112, 223);
+        padding: 19px;
+        width:71vw;
+    }
+
+    .forming1 input{
+        position: relative;
+        width:71vw;
+        margin-top: 10px;
+        border-radius: 6px;
+        background-color: #282A2F;
+        border: none;
+        padding: 8%;
+        
+         
+    }
+   
+    
+   
+   .forming3{
+       background-color: black;
+       padding-top: 20px;
+       padding-bottom: 30px;
+       border-radius: 9px;
+       border: none;
+       height: 10px;
+       width:82vw;
+   }
+   
+   
+   
+   
+   .lines{
+       position: relative;
+       background-color: #d4d4d4;
+       margin: 36px 0;
+       height: 1px;
+       width: 98%;
+   }
+  }
