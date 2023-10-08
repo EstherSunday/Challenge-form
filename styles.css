@@ -239,7 +239,7 @@
 .Challenges{
     padding-top: 9px;
     padding-bottom: 25px;
-    padding-left: 70px;
+    padding-left: 40px;
 }
 
 
@@ -921,7 +921,7 @@
   @media only screen and (max-width: 425px){
     #fa{
         position: absolute;
-        top: 67%;
+        top: 68%;
         left:  77%;
        
     }
