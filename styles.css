@@ -776,6 +776,13 @@
   @media only screen and (max-width: 768px){
 
 
+    .Challenges{
+        padding-top: 11px;
+        padding-bottom: 25px;
+        padding-right: 65px;
+        
+    }
+
     #fa{
         position: absolute;
         top: 67%;
@@ -785,7 +792,7 @@
 
     .imag{
         /* display: none; */
-        width: 52vw;
+        width: 50vw;
         height: 100vh;
         
     }
@@ -855,6 +862,11 @@
 
     .imag{
         display: none;
+        width: 60%;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-right: 10px;
     }
 
     .forming2{
@@ -862,7 +874,7 @@
         margin-top: 26px;
         background-color: rgb(112, 112, 223);
         padding: 18px;
-        width:58vw;
+        width:59vw;
     }
 
     .forming1 input{
@@ -896,7 +908,7 @@
        background-color: #d4d4d4;
        margin: 36px 0;
        height: 1px;
-       width: 90%;
+       width: 96%;
    }
   }
  
