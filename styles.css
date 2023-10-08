@@ -144,13 +144,6 @@
     padding: 20px;
 }
 
-.checkbox-label-text {
-    padding-left: 30px;
-    /* padding-top: 100px; */
-    
-    
-}
-
 
 .form2{
     text-align: center;
@@ -214,6 +207,10 @@
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left:  300px;
+    /* width: 49%;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
 }
 
 
@@ -248,7 +245,7 @@
 #fa{
     position: absolute;
     top: 59%;
-    left:  29%;
+    left:  34%;
     font-size: 18px;
     color: #8b8b8b;
     z-index: 1;
@@ -285,7 +282,7 @@
     padding: 18px;
     color: white;
     height: 10px;
-    /* width: 22vw; */
+    width: 26vw;
     border-radius: 9px;
     
 }
@@ -299,15 +296,54 @@
     color: white;
 }
 
-.checktext{
-    padding: 26px;
- 
+.forming3{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 9px;
+    border: none;
+    height: 10px;
+    width: 29vw;
 }
 
-
-.checkmark{
-    top: 2px;
+.forming3, span, a{
+    color: white;
+    text-decoration: none;
 }
+
+.lines{
+    position: relative;
+    background-color: #d4d4d4;
+    margin: 36px 0;
+    height: 1px;
+    width: 68%;
+}
+
+.lines::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #202227;
+    color: #8b8b8b;
+    padding: 0px 17px;
+    transform: translate(-50%, -50%);
+}
+
+/* .checkboxs-label {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.checkboxs-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    
+} */
 
 
 .welcome{
@@ -328,11 +364,17 @@
 }
 
 .imag{
-    width: 49%;
+    width: 45%;
     border-radius: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
-    /* padding-left: 100px; */
+     /* padding-left: 100px; */
+
+    /* width: 60%;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:  300px; */
 }
 
 
@@ -554,14 +596,15 @@
 
 }
 
-@media only screen and (max-width: 482px){
+/* @media only screen and (max-width: 498px){
     .fa-eye{
         position: absolute;
-        /* top: 2%; */
+        top: 10px;
         left:  86%;
     }
+
     
-}
+} */
 
 @media only screen and (max-width: 454px){
     .fa-eye{
@@ -581,8 +624,9 @@
 
     .fa-eye{
         position: absolute;
-        top: 79%;
+        top: 59%;
         left:  86%;
+        
     }
 
     .form1 input{
@@ -595,6 +639,11 @@
         padding: 4%;
         color: white;
   }
+
+  .checkmark{
+    top: 29px;
+}
+
   }
 
   @media only screen and (max-width: 454px){
@@ -649,83 +698,204 @@
 
   /* HTML2 */
 
-  @media only screen and (max-width: 900px){
+
+  @media only screen and (max-width: 1024px){
+    #fa{
+        position: absolute;
+        top: 50%;
+        left:  34%;
+       
+    }
+
+  }
+
+
+  @media only screen and (max-width: 910px){
 
     #fa{
         position: absolute;
-        top: 64%;
-        left:  61%;
-        font-size: 18px;
-        color: #8b8b8b;
-        z-index: 1;
-        cursor: pointer;
-        padding: 5px;
-        transform: translateY(-50%);
+        top: 65%;
+        left:  36%;
        
+    }
+
+    .imag{
+        /* display: none; */
+        width: 52vw;
+    }
+
+    .forming2{
+        text-align: center;
+        margin-top: 26px;
+        background-color: rgb(112, 112, 223);
+        padding: 18px;
+    }
+
+    .forming1 input{
+        position: relative;
+        height: 4px;
+        width: 25vw;
+        margin-top: 10px;
+        border-radius: 6px;
+        background-color: #282A2F;
+        border: none;
+        padding: 7%;
+        color: white;  
+         
+    }
+   
+    
+   
+   .forming3{
+       background-color: black;
+       padding-top: 20px;
+       padding-bottom: 30px;
+       border-radius: 9px;
+       border: none;
+       height: 10px;
+       width: 30vw;
+   }
+   
+   
+   
+   .lines{
+       position: relative;
+       background-color: #d4d4d4;
+       margin: 36px 0;
+       height: 1px;
+       width: 87%;
+   }
+   
+    
+   
+  }
+
+
+  @media only screen and (max-width: 768px){
+
+
+    #fa{
+        position: absolute;
+        top: 67%;
+        left:  36%;
+       
+    }
+
+    .imag{
+        /* display: none; */
+        width: 52vw;
+        height: 100vh;
         
+    }
+
+    .forming2{
+        text-align: center;
+        margin-top: 26px;
+        background-color: rgb(112, 112, 223);
+        padding: 18px;
+    }
+
+    .forming1 input{
+        position: relative;
+        height: 4px;
+        width: 25vw;
+        margin-top: 10px;
+        border-radius: 6px;
+        background-color: #282A2F;
+        border: none;
+        padding: 8%;
+        color: white;  
+         
+    }
+   
+    
+   
+   .forming3{
+       background-color: black;
+       padding-top: 20px;
+       padding-bottom: 30px;
+       border-radius: 9px;
+       border: none;
+       height: 10px;
+       width: 30vw;
+   }
+   
+   
+   
+   .lines{
+       position: relative;
+       background-color: #d4d4d4;
+       margin: 36px 0;
+       height: 1px;
+       width: 90%;
+   }
+  }
+ 
+
+ 
+    
+  @media only screen and (max-width: 425px){
+
+
+
+    .sectt{
+        display: block;
+        background-color: red;
+    }
+    #fa{
+        position: absolute;
+        top: 67%;
+        left:  36%;
+       
     }
 
     .imag{
         display: none;
     }
+
+    .forming2{
+        text-align: center;
+        margin-top: 26px;
+        background-color: rgb(112, 112, 223);
+        padding: 18px;
+    }
+
+    .forming1 input{
+        position: relative;
+        height: 4px;
+        width: 50vw;
+        margin-top: 10px;
+        border-radius: 6px;
+        background-color: #282A2F;
+        border: none;
+        padding: 7%;
+        color: white;  
+         
+    }
+   
     
    
+   .forming3{
+       background-color: black;
+       padding-top: 20px;
+       padding-bottom: 30px;
+       border-radius: 9px;
+       border: none;
+       height: 10px;
+       width: 30vw;
+   }
+   
+   
+   
+   .lines{
+       position: relative;
+       background-color: #d4d4d4;
+       margin: 36px 0;
+       height: 1px;
+       width: 90%;
+   }
   }
-
  
 
-  @media only screen and (max-width: 842px){
-
-    #fa{
-        top: 68%;
-        left:  89%;
-    }
-        
-        .form2{
-            text-align: center;
-            margin-top: 26px;
-            background-color: rgb(112, 112, 223);
-            padding: 18px;
-            color: white;
-            height: 10px;
-            /* width: 22vw; */
-            border-radius: 9px;
-            background-color: fed;
-        }
+ 
     
-    
-    }
-
-    @media only screen and (max-width: 768px){
-        .forming input{
-            height: 5px;
-         }
-    
-         .checkmark{
-            top: 30px;
-        }
-
-        
-    }
-
-    @media only screen and (max-width: 425px){
-        #fa{
-            top: 70%;
-            left:  82%;
-        }
-    }
-
-
-    @media only screen and (max-width: 375px){
-        #fa{
-            top: 69%;
-            left:  82%;
-        }
-    }
-
-    @media only screen and (max-width: 320px){
-        #fa{
-            top: 67%;
-            left:  82%;
-        }
-    }
