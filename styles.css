@@ -554,6 +554,15 @@
 
 }
 
+@media only screen and (max-width: 482px){
+    .fa-eye{
+        position: absolute;
+        /* top: 2%; */
+        left:  86%;
+    }
+    
+}
+
 @media only screen and (max-width: 454px){
     .fa-eye{
         position: absolute;
@@ -578,7 +587,6 @@
 
     .form1 input{
         position: relative;
-        /* height: 80px; */
         width: 83vw;
         margin-top: 10px;
         border-radius: 6px;
@@ -588,6 +596,19 @@
         color: white;
   }
   }
+
+  @media only screen and (max-width: 454px){
+
+    .fa-eye{
+        position: absolute;
+        top: 71%;
+        left:  86%;
+    }
+
+    .form1 input{
+        height: 15px;
+  }
+}
 
   @media only screen and (max-width: 320px){
     .fa-eye{
@@ -608,6 +629,7 @@
   @media only screen and (max-width: 375px){
     .fa-eye{
         top: 84%;
+     
     }
 
     .form1 input{
@@ -622,8 +644,7 @@
   }
 
 
-
-
+ 
 
 
   /* HTML2 */
