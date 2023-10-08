@@ -714,6 +714,13 @@
 
   @media only screen and (max-width: 910px){
 
+
+    .Challenges{
+        padding-top: 11px;
+        padding-bottom: 25px;
+        padding-right: 65px;
+        
+    }
     #fa{
         position: absolute;
         top: 65%;
@@ -791,10 +798,12 @@
     }
 
     .imag{
-        /* display: none; */
-        width: 50vw;
-        height: 100vh;
-        
+
+        width: 60%;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-right: 10px;
     }
 
     .forming2{
@@ -862,11 +871,7 @@
 
     .imag{
         display: none;
-        width: 60%;
-        border-radius: 20px;
-        padding-top: 5px;
-        padding-bottom: 10px;
-        padding-right: 10px;
+    
     }
 
     .forming2{
@@ -913,5 +918,55 @@
   }
  
 
- 
+  @media only screen and (max-width: 425px){
+    #fa{
+        position: absolute;
+        top: 67%;
+        left:  77%;
+       
+    }
+
+
+    .forming2{
+        text-align: center;
+        margin-top: 26px;
+        background-color: rgb(112, 112, 223);
+        padding: 19px;
+        width:62vw;
+    }
+
+    .forming1 input{
+        position: relative;
+        width:64vw;
+        margin-top: 10px;
+        border-radius: 6px;
+        background-color: #282A2F;
+        border: none;
+        padding: 8%;
+        
+         
+    }
+   
     
+   
+   .forming3{
+       background-color: black;
+       padding-top: 20px;
+       padding-bottom: 30px;
+       border-radius: 9px;
+       border: none;
+       height: 10px;
+       width:74vw;
+   }
+   
+   
+   
+   
+   .lines{
+       position: relative;
+       background-color: #d4d4d4;
+       margin: 36px 0;
+       height: 1px;
+       width: 98%;
+   }
+  }
